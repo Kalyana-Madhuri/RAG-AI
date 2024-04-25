@@ -28,7 +28,7 @@ chat_template = ChatPromptTemplate.from_messages([
 ])
 
 # Initialize chat model
-chat_model = ChatGoogleGenerativeAI(google_api_key="AIzaSyC2Bztff9XtDCDrCJfMJ8py9JaT8VkwSlY", 
+chat_model = ChatGoogleGenerativeAI(google_api_key="API key", 
                                     model="gemini-1.5-pro-latest")
 
 # Initialize output parser
